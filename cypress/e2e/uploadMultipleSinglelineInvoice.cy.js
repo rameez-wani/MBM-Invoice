@@ -80,7 +80,11 @@ describe('Login', () => {
                   ','+tax_amount +','+gross_amount +','+itemNo +','+startDate +','+endDate +','+employee+','+budgetGroup +
                   ','+category +','+subCategory+','+description +','+lineGrossAmount +','+linetaxPercentage+','+linetaxAmount+','+
                   linenetAmount +','+paidBy +','+expenseType +','+remainingBudget +','+acceptedInBudget +','+acceptedOverBudget +','+
-                  acceptedOverBudgetManual +','+excessOverBudget +','+comments +','+exported+('\n'));
+                  acceptedOverBudgetManual +','+excessOverBudget +','+comments +','+exported+('\n'),{ flag: 'a+' }
+
+
+
+                );
         
         })})})})})})})})})})})})})})})})})})})})})})})})})})})})})})
         cy.go('back');
